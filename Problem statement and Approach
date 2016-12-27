@@ -1,4 +1,31 @@
-# Crimes-in-Minneapolis-location
+Problem Statement:
+Exploratory data analysis of the crime data of Minneapolis city.
 
+Questions:
+1) What are the frequencies of crimes occurring? Where do crimes appear to be happening the most?
+2) What are the trends of #Crimes with variation of other factors?
+3) Where is the ideal location for a new police station?
 
+Approach:
 
+Business understanding:
+1) There have been 8,800 crimes in Minneapolis for the year 2016, over ten times the total number of Minneapolis police officers
+2) Crime is a growing concern for any metropolitan area, especially for a place like Minneapolis with a plethora of Universities
+
+Data understanding:
+1) The data is a longitudinal. It has the time of the crime, crime type, Latitude and Longitude, Desciption, Neighborhood, temperature, Housing
+2) Few categories of crime are Robebry, Rape, Homicide
+
+Data Preperation: 
+Combined Data set preperation: Data like temperature, housing and population was got from other external sources. All the data had to be combined into one through joins and lookups
+Blank / Null value treatment: Less than 0.5% of the data had Blank values, so removed them from our analysis
+Outlier treatment: There are no outliers for our target variable of Crimes, since they are valuable for pour analysis 
+
+Bivariate analysis: Analysis between #Crimes v/s Month, #Crimes v/s time of the day, #Crimes v/s Temperature in Minneapolis
+
+Optimization:
+Identified the optimal location of the police station using Excel solver and and Evolutionary type of algorithm.
+
+Results:
+Factors of Temperature and Housing have an significant impact on #Crimes
+Also optimized the location of the new police station to be in the south of 44.92 line off latitude, to reduce the distances police need to travel to the crime locations
