@@ -1,10 +1,10 @@
 Problem Statement:
-Exploratory data analysis of the crime data of Minneapolis city. 
+Optimization of a new police station in Minneapolis city. Also explore the data of minneapolis crimes.
 
 Questions:
-1) What are the frequencies of crimes occurring? Where do crimes appear to be happening the most?
-2) What are the trends of #Crimes with variation of other factors?
-3) Where is the ideal location for a new police station?
+1) Where is the ideal location for a new police station?
+2) What are the trends of #Crimes with factors?
+3) What are the frequencies of crimes occurring? Where do crimes appear to be happening the most?
 
 Approach:
 
