@@ -1,5 +1,5 @@
 Problem Statement:
-Exploratory data analysis of the crime data of Minneapolis city.
+Exploratory data analysis of the crime data of Minneapolis city. 
 
 Questions:
 1) What are the frequencies of crimes occurring? Where do crimes appear to be happening the most?
@@ -29,3 +29,7 @@ Identified the optimal location of the police station using Excel solver and and
 Results:
 Factors of Temperature and Housing have an significant impact on #Crimes
 Also optimized the location of the new police station to be in the south of 44.92 line off latitude, to reduce the distances police need to travel to the crime locations
+   
+Major Learnings:
+1) Optimization using Excel Solver
+2) Use Python for expolratory analysis questions and plotting graphs
